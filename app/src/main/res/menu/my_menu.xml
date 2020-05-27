@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/DELETE"
+        android:title="@string/delete"
+        android:icon="@drawable/skeletons15">
+    </item>
+    <item
+        android:id="@+id/SHARE"
+        android:title="@string/share"
+        android:icon="@drawable/skeleton13">
+    </item>
+</menu>
