@@ -12,7 +12,6 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 public class CustomAdapter extends ArrayAdapter<String>{
-
     private String[] Titles;
     CustomAdapter(@NonNull Context context, String[] Titles) {
         super(context, R.layout.content_main,Titles);
@@ -22,7 +21,8 @@ public class CustomAdapter extends ArrayAdapter<String>{
     @NonNull
     @Override
     public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
-        LayoutInflater inflater=LayoutInflater.from(getContext());
+        LayoutInflater inflater = LayoutInflater.from(getContext());
+        assert inflater != null;
         @SuppressLint("ViewHolder")
         View customView = inflater.inflate(R.layout.content_main, parent,false);
 

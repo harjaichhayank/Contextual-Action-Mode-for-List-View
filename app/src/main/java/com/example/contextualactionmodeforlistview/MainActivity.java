@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
     ListView listView;
     String[] movieLists;
     ArrayAdapter customAdapter; //2 customAdapters -- 1 from java class (did not use), 2nd this object of ArrayAdapter class
-    List data_provider = new ArrayList();
+    List data_provider = new ArrayList<>();
     List selections = new ArrayList<>();
     int count = 0;
 
